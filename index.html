@@ -1,1 +1,211 @@
-Hello World
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://getbootstrap.com/docs/4.0/examples/album/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="/img/tabicon.ico">
+    <title>observeupdate.com</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./index_files/album.css" rel="stylesheet">
+  </head>
+
+  <body cz-shortcut-listen="true">
+<style>
+.project_photo{
+    position:relative;
+    width: 100%;
+    height: 0;
+    --padding-bottom: 60% ; /* % of width, defines aspect ratio*/
+    padding-bottom: 80% ; /* % of width, defines aspect ratio*/
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+a,a:hover { color: inherit; 
+    text-decoration: none;
+
+} 
+#up {
+    color: #cc5500;
+}
+h4 {
+    --color: #cc5500;
+}
+.card-text{
+color:#666666;;
+}
+.page-heading{
+--color:#68BDDC!important;
+color:#555555!important;
+color:red!important;
+color:#CC0011!important;
+color:#0077CC!important;
+color:#343A40!important;
+font-size:3em;
+font-family:'Helvetica';
+font-weight:400;
+}
+</style>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Hello, my name is Seán O'Connor. I am a data scientist/data engineer who leads high performance teams across industry. Sometimes I do app and full stack web development.</p> </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://twitter.com/seanoconnor3000" class="text-white">Follow on Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/sean-o-connor-86b11822/" class="text-white">LinkedIn</a></li>
+                <li><a href="mailto:seanoconnor3000@gmail.com" class="text-white">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="http://www.observeupdate.com" class="navbar-brand d-flex align-items-center">
+            <!--svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg-->
+            <strong>observe/<span id='up'>update</span></strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+      <!--section class="jumbotron text-center">
+      </section-->
+      
+        <div class="container mt-3">
+          <h1 class="page-heading">Personal Projects</h1>
+          <p class="lead text-muted"></p>
+        </div>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <a href='https://www.packedcanvas.com/app/joyces-dublin'>
+              <div class="card mb-4 box-shadow">
+                  <div class="project_photo" style="background-image:url('/img/joycesdublinlogo.png')">
+                  </div>
+                <div class="card-body">
+                    <h4 class='h4'>Joyce's Dublin</h4>
+                  <p class="card-text">An iOS/Android app mapping out the locations in Dublin where James Joyce lived and based his works. Built with Dart using the Flutter Framework with a Google Cloud backend, it features OAuth2 sign in, user inputs and streaming updates.</p>
+                  <!--div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div-->
+                </div>
+              </div>
+              </a>
+            </div>
+
+            <div class="col-md-4">
+
+              <a href='https://multiplayerchessclock.com'>
+              <div class="card mb-4 box-shadow">
+
+
+                  <div class="project_photo" style="background-image:url('/img/multiplayerchess2.png')">
+                  </div>
+                <div class="card-body">
+                    <h4 class='h4'>MultiPlayerChessClock.com</h4>
+                  <p class="card-text">Keeps track of player time in board games, debates or any turn-based events; both locally and remotely. The asynchronous website is built using Django with a Google Firebase backend that uses AJAX and streaming. </p>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+
+              <a href='http://www.thestationersregister.com'>
+              <div class="card mb-4 box-shadow">
+
+                  <div class="project_photo" style="background-image:url('/img/tsr.png')">
+                  </div>
+                <div class="card-body">
+                    <h4 class='h4'>TheStationersRegister.com</h4>
+                  <p class="card-text">A collection of the works of 16th century dramatist Christopher Marlowe, featuring scene matrices, visualisations of dialog, and the ability to drill down on characters and scenes. A static website generated by XSLT</p>
+
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+
+              <a href='https://www.packedcanvas.com/app/peekskill-history'>
+              <div class="card mb-4 box-shadow">
+
+                  <div class="project_photo" style="background-image:url('/img/peekskillhistory.png')">
+                  </div>
+                <div class="card-body">
+                    <h4 class='h4'>Peekskill History</h4>
+                  <p class="card-text">An iOS/Android app that tells the story of the town of Peekskill, New York; from Native Americal settlement to the present day. Built with Dart using the Flutter Framework with a Google Cloud backend, it features OAuth2 sign in, user inputs and streaming updates.</p>
+
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+
+              <a href='https://www.packedcanvas.com/app/u2s-dublin'>
+              <div class="card mb-4 box-shadow">
+
+                  <div class="project_photo" style="background-image:url('/img/u2s_dublin_icon.png')">
+                  </div>
+                <div class="card-body">
+                    <h4 class='h4'>U2's Dublin</h4>
+                  <p class="card-text">An iOS/Android app mapping out the locations in Dublin where U2 lived and recorded, told through the story of the city itself. Built with Dart using the Flutter Framework with a Google Cloud backend, it features OAuth2 sign in, user inputs and streaming updates.</p>
+
+                </div>
+              </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!--footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="https://getbootstrap.com/docs/4.0/examples/album/#">Back to top</a>
+        </p>
+        <p>© Seán O'Connor 2021</p>
+        <p><a href="https://www.linkedin.com/in/sean-o-connor-86b11822/">linkedIn</a></p>
+      </div>
+    </footer-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./index_files/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./index_files/popper.min.js"></script>
+    <script src="./index_files/bootstrap.min.js"></script>
+    <script src="./index_files/holder.min.js"></script>
+  
+
+<svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="17" style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg></body></html>
